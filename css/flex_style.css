@@ -147,9 +147,9 @@ footer{
 }
 
 .gallery > img{
-  border: 10px #50C7C7 solid;
+  border: 5px blanchedalmond solid;
   margin: 10px;
-  width: 300px;
+  width: auto;
 }
 
 /* Navbar */
