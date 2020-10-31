@@ -13,9 +13,11 @@ nav ul li{
 	padding:10px;
 	width:25%;
 	border:1px solid black;
+	display: inline;
 }
 
 body{
+	font-family: "Palatino Linotype", "Book Antiqua", 'Palatino', serif;
 	margin:1%;
 	padding:1%;
 }
