@@ -1,3 +1,7 @@
+html{
+    scroll-behavior: smooth;
+}
+
 h1{
 	display: block; 
 	font-size: 2em; 
@@ -6,7 +10,13 @@ h1{
 	margin-left: 0; 
 	margin-right: 0; 
 	font-weight: bold;
+	text-align: center;
 }
+
+h2{
+	font-size: 32px;
+	line-height: 1.5;
+  }
 
 nav{
 	background-color: #ddd;
@@ -27,10 +37,18 @@ nav ul #active{
 }
 
 nav a{
-
+	color: black;
 	font-weight: bold;
 	text-decoration: none; 
 }
+
+nav a:link{
+	text-decoration: none;
+  }
+  
+  nav a:hover{
+	text-decoration: underline;
+  }
 
 body{
 	font-family: "Palatino Linotype", "Book Antiqua", 'Palatino', serif;
@@ -46,7 +64,7 @@ p {
     margin-inline-end: 0px;
 }
 
-header, main, nav, footer{
+header, main, footer{
 	border: 1px solid grey;
 	margin-bottom: 10px;
 }
