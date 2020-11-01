@@ -21,17 +21,6 @@ p {
   padding: 0 30px;
 }
 
-a.skip{
-  background: white;
-  left: 0;
-  padding: 6px;
-  position: absolute;
-  top: -40px;
-  -webkit-transition: top 1s ease-out;
-  transition: top 1s ease-out;
-  z-index: 1;
-}
-
 a.skip:focus{
   top:20px;
   color: black;
@@ -40,6 +29,10 @@ a.skip:focus{
 
 *:focus{
   border: 2px solid black;
+}
+
+nav{
+  width: 100%;
 }
 
 footer{
@@ -148,18 +141,15 @@ footer{
 .gallery > img{
   border: 5px blanchedalmond solid;
   margin: 10px;
-  width: auto;
 }
 
 /* Navbar */
 header{
-  background: #fff;
-  border-bottom: 3px solid #50C7C7;
   /*Your  code here again.*/
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-direction: column;
+  /* flex-direction: column; */
 }
 
 .nav_links{

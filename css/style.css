@@ -8,6 +8,12 @@ h1{
 	font-weight: bold;
 }
 
+nav{
+	background-color: #ddd;
+	padding: 25px 0; 
+	text-align: left;
+  }
+
 nav ul li{
 	background-color: lightpink;
 	padding:10px;
@@ -16,10 +22,20 @@ nav ul li{
 	display: inline;
 }
 
+nav ul #active{
+	background-color: #ffddbb;
+}
+
+nav a{
+
+	font-weight: bold;
+	text-decoration: none; 
+}
+
 body{
 	font-family: "Palatino Linotype", "Book Antiqua", 'Palatino', serif;
-	margin:1%;
-	padding:1%;
+	background-color: #737373;
+  	font-size: 18px;
 }
 
 p {
@@ -39,7 +55,15 @@ img{
     height: 200px;
     width:inherit;
     border: 3px solid blue;
-    padding: 25px;
+    padding: 5px;
     border-radius: 10px;
     margin: 10px;
+}
+
+@media all and (min-width: 800px){
+	nav{
+	  padding: 30px 0px;
+	  text-align: right;
+	  vertical-align: middle;
+	}
 }
