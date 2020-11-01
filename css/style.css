@@ -11,11 +11,14 @@ h1{
 	margin-right: 0; 
 	font-weight: bold;
 	text-align: center;
+	line-height: 2;
 }
 
 h2{
 	font-size: 32px;
 	line-height: 1.5;
+	text-align: center;
+  	padding: 5px;
   }
 
 nav{
@@ -54,6 +57,8 @@ body{
 	font-family: "Palatino Linotype", "Book Antiqua", 'Palatino', serif;
 	background-color: #737373;
   	font-size: 18px;
+	margin: 0;
+	padding: 0;
 }
 
 p {
@@ -78,6 +83,18 @@ img{
     margin: 10px;
 }
 
+.gallery{
+	min-height: 600px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+  }
+  
+  .gallery > img{
+	border: 5px blanchedalmond solid;
+	margin: 10px;
+  }
+  
 @media all and (min-width: 800px){
 	nav{
 	  padding: 30px 0px;
