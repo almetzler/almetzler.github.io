@@ -26,6 +26,7 @@ main div{
 
 .intro{
 	background: rgba(206, 206, 206, 0.5);
+	margin: 5px;
 }
 
 h1{
@@ -101,11 +102,16 @@ nav a:link{
 nav a:hover{
 	text-decoration: underline;
 	}
+
 #people div{
+	display: grid;
+	grid-template-rows: auto;
 	margin-bottom: 25%;
 	}
+
 #people img{
 	object-fit: cover;
+	justify-items: right;
 }
 
 .gallery{
@@ -115,6 +121,10 @@ nav a:hover{
 	justify-content: center;
 	padding-bottom: 15px;
   }
+
+.gallery div{
+	background: transparent;
+}
   
 .gallery > img{
 	border: 5px blanchedalmond solid;
@@ -163,7 +173,6 @@ nav a:hover{
 	}
 
 	#people div{
-		display: grid;
 		grid-template-columns: auto auto;
 	}
 
