@@ -131,6 +131,20 @@ img{
 .gallery div{
 	background: transparent;
 }
+
+.places{
+	background-color: transparent;
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+}
+
+.places div{
+	margin-bottom: 10px;
+	width: auto;
+	height: auto;
+	overflow: scroll;
+}
   
 /* flip card  taken and modified from https://www.w3schools.com/howto/howto_css_flip_card.asp*/
 .flip-card{
@@ -261,6 +275,9 @@ input[type=submit]:hover {
 		grid-column: 2/span 1;
 		object-fit: cover;
 		justify-self: end;
+	}
+	.places div{
+		width: 40%;
 	}
 }
 
