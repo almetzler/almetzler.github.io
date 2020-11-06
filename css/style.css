@@ -200,6 +200,8 @@ input {
 	display: inline-block;
 	border: 1px solid #ccc;
 	box-sizing: border-box;
+	font-size: smaller;
+	font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
 }
 span{
 	margin-left:20%;
@@ -209,25 +211,22 @@ span{
   
 textarea{
 	width: 100%;
-	height: 35vh;
+	height: 15vh;
 	padding: 12px 20px;
 	margin: 8px 0;
 	display: inline-block;
 	border: 1px solid #ccc;
 	box-sizing: border-box;
+	font-size: smaller;
+	font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
 }
-  
-input[type=checkbox]{
-	  display:inline;
-	  width:inherit;
-}
-  
+
 input[type=submit] {
-	background-color: #38803C;
-	color: white;
+	background-color: #d4e4e8;
+	color: black;
 	padding: 14px 20px;
 	margin: 8px 0;
-	border: none;
+	border: 1px solid blanchedalmond;
 	cursor: pointer;
 	width: 100%;
 }
