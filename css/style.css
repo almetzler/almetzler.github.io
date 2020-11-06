@@ -16,7 +16,6 @@ body{
 header{
 	color:#3b3b49;
 	text-shadow: 1px 1px 10px linen;
-	background-color: ;
 }
 nav{ 
 	text-align: center;
@@ -61,6 +60,7 @@ nav a:hover{
 	
 main div{
 	background-color: #cecece;
+	color: #3b3b49;
 	margin-bottom: 7%;
 	padding: 1px 10px;
 }
@@ -228,7 +228,7 @@ input[type=submit] {
 	color: black;
 	padding: 14px 20px;
 	margin: 8px 0;
-	border: 1px solid blanchedalmond;
+	border: 1px solid #3b3b49;
 	cursor: pointer;
 	width: 100%;
 }
