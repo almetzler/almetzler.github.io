@@ -171,7 +171,6 @@ img{
 }
 
 .flip-card:hover .card-inner,
-.flip-card:focus-within .card-inner,
 .flip-card:active .card-inner,
 .flip-card:focus .card-inner{
 	transform: rotateY(180deg);
