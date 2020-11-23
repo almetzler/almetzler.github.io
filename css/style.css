@@ -95,6 +95,10 @@ footer{
 	background-color: #c4e8d9;
 }
 
+footer p{
+	text-align: center;
+}
+
 img{
     height: 200px;
     width:inherit;
@@ -166,7 +170,10 @@ img{
 	
 }
 
-.flip-card:hover .card-inner{
+.flip-card:hover .card-inner,
+.flip-card:focus-within .card-inner,
+.flip-card:active .card-inner,
+.flip-card:focus .card-inner{
 	transform: rotateY(180deg);
 }
 
@@ -190,6 +197,7 @@ img{
 	margin:0 auto;
 	object-fit: cover;
 }
+/* end of flip card stuff */
 
 /* form stuff taken and modified from discussion week 9 */
 form{
@@ -246,7 +254,8 @@ input[type=submit] {
 	cursor: pointer;
 	width: 100%;
 }
-  
+/* end of form stuff  */
+
 input[type=submit]:hover {
 	opacity: 0.8;
 }
