@@ -359,4 +359,7 @@ input[type=submit]:hover {
 		transition: none;
 
 	}
+	.people div img{
+		animation: none;
+	}
   }
