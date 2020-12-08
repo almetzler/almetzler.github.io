@@ -261,6 +261,20 @@ input[type=submit]:hover {
 }
 /* end of form stuff  */
 
+@-webkit-keyframes person_grow{
+	/*Your code here.*/
+	from{size: 25px;}
+	to{size: 100px;}
+  
+  }
+  
+  @keyframes person_grow{
+	/*Your code here.*/
+	from{height: 25px;}
+	to{height: 200px;}
+  
+  } 
+
 @media all and (min-width: 600px){
 	nav{
 		/* padding: 10px 0px; */
@@ -276,6 +290,13 @@ input[type=submit]:hover {
 	.people div{
 		grid-template-columns: auto auto;
 	}
+
+	.people div img{
+		/*Your code here.*/
+		animation-name: person_grow;
+		animation-duration: 5s;
+	  
+	 }
 
 	.people h2{
 		grid-column: span 2;
